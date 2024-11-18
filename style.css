@@ -1,0 +1,99 @@
+* {
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: black;
+}
+.innerBody {
+    background-color: black;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.navbar-brand {
+    color: rgb(243, 150, 21);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+#flavor{
+    font-family: cursive;
+}
+.nav-item li a {
+    font-weight: 700;
+}
+
+#pizza {
+    color: rgb(243, 150, 21);
+}
+
+#deals {
+    color: rgb(144, 9, 9);
+}
+
+#burger,
+#Spaggeti {
+    color: white;
+}
+
+/* Limit the width of text content */
+.text-content {
+    display: inline-block;
+    /* Shrinks to fit the content */
+    max-width: 100%;
+    /* Prevents overflow */
+    text-align: left;
+    /* Ensures proper alignment */
+    padding: 0 50px;
+}
+
+/* Headline styling */
+h1 {
+    font-size: 2.5rem;
+    color: rgb(212, 207, 183);
+    padding: 1rem;
+    margin: 0;
+    /* Removes extra margin */
+    display: inline-block;
+    /* Shrinks width to fit text */
+}
+
+/* Flavor highlight */
+#flavor {
+    color: rgb(243, 150, 21);
+    font-weight: bold;
+}
+
+/* Time styling */
+#time {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    margin-top: 12%;
+    font-weight: 700;
+    color: rgb(212, 207, 183);
+
+}
+/* Clock icon */
+#clock {
+    width: 24px;
+    margin-right: 0.5rem;
+}
+
+/* Image styling */
+.blended-image {
+    max-width: 550px;
+    border-radius: 30%;
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1), rgba(61, 61, 61, 0));
+    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+}
+
+
+/* Brand description container */
+.BrandDescription {
+    border: 2px solid rgb(63, 62, 61);
+    border-radius: 50px;
+    width: auto;
+    text-align: left;
+}
